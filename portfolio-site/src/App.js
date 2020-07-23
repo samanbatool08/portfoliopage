@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import {Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import Main from './components/main';
 
 function App() {
   return (
@@ -23,7 +24,9 @@ function App() {
                 <a href="/">Link</a>
             </Navigation>
         </Drawer>
-        <Content />
+        <Content>
+          <Main />
+        </Content>
     </Layout>
 </div>
     </div>
