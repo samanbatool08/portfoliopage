@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function App() {
   return (
     <div>
-      <div style={{height: '500px', position: 'relative'}}>
+      <div style={{height: '800px', position: 'relative'}}>
     <Layout fixedHeader>
         <Header className='header-color' title='Title' scroll>
             <Navigation>
