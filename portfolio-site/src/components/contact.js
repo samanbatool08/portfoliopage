@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 
 class Contact extends Component {
     render() {
@@ -16,7 +16,29 @@ class Contact extends Component {
                         <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>here is the text you are going to put describing yoself</p>
                     </Cell>
                     <Cell col={6}>
-                        half page 
+                        <h2>Contact Me</h2>
+                        <hr />
+
+                        <div className='contact-list'>
+                        <List>
+                            <ListItem>
+                                <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                                    <i className="fa fa-phone-square" aria-hidden="true" />
+                                    (123) 456-7890
+                                </ListItemContent>
+                            </ListItem>
+
+                            <ListItem>
+                            <ListItemContent style={{fontSize: '30px', fontFamily: 'Anton'}}>
+                                    <i className="fa fa-envelope" aria-hidden="true" />
+                                    samanbatool08@gmail.com
+                                </ListItemContent>
+                            </ListItem>
+
+                          
+                        </List> 
+                        </div>
+
                     </Cell>
                 </Grid>
             </div>
