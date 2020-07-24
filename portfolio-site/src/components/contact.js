@@ -7,7 +7,13 @@ class Contact extends Component {
             <div className='contact-body'>
                 <Grid className='contact-grid'>
                     <Cell col={6}>
-                        half page 
+                        <h2>Saman Batool</h2> 
+                        <img 
+                        src='https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png'
+                        alt='avatar'
+                        style={{height: '250px'}}
+                        />
+                        <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>here is the text you are going to put describing yoself</p>
                     </Cell>
                     <Cell col={6}>
                         half page 
