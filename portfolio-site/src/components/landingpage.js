@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import { Link } from 'react-router-dom';
 
 class Landing extends Component {
     render() {
@@ -37,15 +38,16 @@ class Landing extends Component {
 
                     <div className='container'>
                         <div className='about-container'>
-                            <h1 style={{color: 'black'}}>About</h1>
+                            <p><Link to="/about" style={{color: 'black', fontWeight: 'bold', textDecoration: 'none'}}>About</Link></p>
                         </div>
                         
                         <div className='resume-container'>
-                            <h1 style={{color: 'black'}}>Resume</h1>
+                        <a href="https://docs.google.com/document/d/1uviv1b_QN7Bi1LZo6sxXdLmkr0GK7BPuqYqBf3bROGE/edit?usp=sharing" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none'}}><p style={{color: 'black', fontWeight: 'bold'}}>Resume</p></a>
+                            {/* <p><Link to="/resume"  style={{color: 'black', fontWeight: 'bold', textDecoration: 'none'}}>Resume</Link></p> */}
                         </div>
                         
                         <div className='projects-container'>
-                            <h1 style={{color: 'black'}}>Projects</h1>
+                            <p><Link to="/projects" style={{color: 'black', fontWeight: 'bold', textDecoration: 'none'}}>Projects</Link></p>
                         </div>
                     </div>
 
