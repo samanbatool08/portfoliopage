@@ -4,6 +4,7 @@ import { Grid, Cell } from 'react-mdl';
 class Landing extends Component {
     render() {
         return (
+            <div>
             <div style={{width: '100%', margin: 'auto'}}>
                 <Grid className='landing-grid'>
                     <Cell col={12}>
@@ -14,9 +15,6 @@ class Landing extends Component {
                             />
                         <div className="banner-text">
                             <h1>Software Engineer</h1>
-
-                        <hr/>
-                        <p>React | JavaScript | Ruby on Rails | NodeJS | HTML/CSS</p>
                         <div className='social-links'>
                                 {/* LinkedIn  */}
                             <a href="http://google.com" rel="noopener noreferrer" target="_blank">
@@ -34,10 +32,30 @@ class Landing extends Component {
                             </a>
 
                         </div>
+                        <hr/>
+                        <p>React | JavaScript | Ruby on Rails | NodeJS | HTML/CSS</p>
+
+                    <div className='container'>
+                        <div className='about-container'>
+                            <h1 style={{color: 'black'}}>About</h1>
+                        </div>
+                        
+                        <div className='resume-container'>
+                            <h1 style={{color: 'black'}}>Resume</h1>
+                        </div>
+                        
+                        <div className='projects-container'>
+                            <h1 style={{color: 'black'}}>Projects</h1>
+                        </div>
+                    </div>
+
+
                         </div>
 
                     </Cell>
                 </Grid>
+            </div>
+            
             </div>
         )
     }
