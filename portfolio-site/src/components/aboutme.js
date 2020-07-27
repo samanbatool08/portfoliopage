@@ -54,7 +54,7 @@ class About extends Component {
 
                 <Cell className="resume-right-col" col={6}>
 
-                    <h2>From where to where? </h2>
+                    <h2 style={{fontFamily: 'Amiri, serif'}}>From where to where? </h2>
 
 
                     <div className="about-desc">

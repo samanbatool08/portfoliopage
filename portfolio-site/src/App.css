@@ -24,6 +24,13 @@
   height: 200px; 
 }
 
+.container p {
+  margin: auto;  
+  font-family: 'Rowdies', cursive;
+  font-size: 27px;
+
+}
+
 .container div:hover {
     background-color: grey;
     color: white;
@@ -58,10 +65,10 @@
 }
 
 
-.avatar-img {
+/* .avatar-img {
   height: 250px;
   padding-top: 5em;
-}
+} */
 
 .banner-text {
   background-color: black;
@@ -159,6 +166,7 @@
   background: #D9D7DD;
   color: black;
   padding: 2em;
+
 }
 
 .about-desc {
