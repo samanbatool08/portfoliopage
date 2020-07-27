@@ -13,7 +13,7 @@ class About extends Component {
                         <img 
                         src='/about4.png'
                         alt="avatar"
-                        style={{height: '300px',   borderRadius: '10%', width: '290px'
+                        style={{height: '300px',   borderRadius: '10%', width: '280px'
                     }}
                         />
                     
