@@ -25,15 +25,8 @@
 }
 
 .container div:hover {
-
     background-color: grey;
     color: white;
-
-}
-
-.container link {
-  font-size: 66px;
-  font-weight: bold; 
 }
 
 .about-container {
@@ -43,6 +36,7 @@
   margin-left: 15%;
   background-color: white;
   border-radius: 10px;
+
 }
 
 .resume-container {
@@ -159,4 +153,8 @@
   background: #27221F;
   color: white;
   padding: 2em;
+}
+
+.about-desc {
+  
 }

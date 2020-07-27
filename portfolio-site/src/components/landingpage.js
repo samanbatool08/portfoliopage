@@ -38,12 +38,11 @@ class Landing extends Component {
 
                     <div className='container'>
                         <div className='about-container'>
-                            <p><Link to="/about" style={{color: 'black', fontWeight: 'bold', textDecoration: 'none'}}>About</Link></p>
+                            <p><Link to="/aboutme" style={{color: 'black', fontWeight: 'bold', textDecoration: 'none'}}>About</Link></p>
                         </div>
                         
                         <div className='resume-container'>
                         <a href="https://docs.google.com/document/d/1uviv1b_QN7Bi1LZo6sxXdLmkr0GK7BPuqYqBf3bROGE/edit?usp=sharing" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none'}}><p style={{color: 'black', fontWeight: 'bold'}}>Resume</p></a>
-                            {/* <p><Link to="/resume"  style={{color: 'black', fontWeight: 'bold', textDecoration: 'none'}}>Resume</Link></p> */}
                         </div>
                         
                         <div className='projects-container'>

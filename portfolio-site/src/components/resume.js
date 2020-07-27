@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import ProgressBar from 'react-bootstrap/ProgressBar'
 
 class Resume extends Component {
     render() {
@@ -16,79 +17,65 @@ class Resume extends Component {
                         alt="avatar"
                         style={{height: '200px'}}
                         />
-                    </div>
+                    
 
                     <h2 style={{paddingTop: '2em'}}>Saman Batool</h2>
                     <h4 style={{color: 'grey'}}>Programmer</h4>
-                    <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                    <p>some text here if you need</p>
-                    <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-                    <h5>Address</h5>
-                    <p>1 Hackey Way Menlo Park, 94025</p>
-                    <h5>Phone</h5>
-                    <p>516 710 5444</p>
-                    <h5>Email</h5>
-                    <p>samanbatool08@gmail.com</p>
-                    <h5>Website</h5>
-                    <p>samanbatool.com</p>
-                    <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
+                    {/* <hr style={{borderTop: '3px solid #833fb2', width: '50%', marginLeft: '25%'}}/> */}
+
+
+                {/* <hr style={{borderTop: '3px solid #833fb2', width: '50%', marginLeft: '25%'}}/> */}
+
+                {/* <h2>Skills</h2> */}
+
+                    <Skills 
+                        skill='javascript&nbsp;&nbsp;'
+                        progress={100}
+                    />
+                    <Skills 
+                        skill='ruby on rails'
+                        progress={80}
+                    />
+                    <Skills 
+                        skill='React&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
+                        progress={85}
+                    />
+                    <Skills 
+                        skill='HTML/CSS'
+                        progress={65}
+                    />
+                </div>
+                    <ListItem style={{marginLeft: '30%'}}>
+                        <ListItemContent style={{fontSize: '14px', fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif;'}}>
+                                <i className="fa fa-envelope" aria-hidden="true" />
+                            &nbsp; samanbatool08@gmail.com
+                        </ListItemContent>  
+                    </ListItem>
                 </Cell>
 
                 <Cell className="resume-right-col" col={8}>
-                    <h2>Education</h2>
+
+                    {/* <h2>Who, what, where? </h2> */}
 
 
-                    <Education 
-                        startYear={2013}
-                        endYear={2017}
-                        schoolName="Hunter College"
-                        schoolDescription="sdjosjcosdjcosjcsojcsojcosjco"
-                    />
+                    <div className="about-desc">
+                        
+                        Upon graduating with a neuroscience degree and working in computational research for almost 3 years, I realized the magnitude of data in solving fundamental real life problems. My intrigue for technology led me to working at a data science startup whilst continuing research. Although I worked on the business development side - where I gained invaluable project management, creative marketing and time complexity skills - my mind always shifted towards website curation, data analysis and how to create and build something invaluable for our audience. 
+                        <br /> <br />
+                        Skip forward to 2 years working in the fast paced startup environment and completing almost 17 research projects, I enrolled in an immersive Software Engineering program to put my passion to practice. I learned to build projects with a range of backend and frontend languages such as ReactJS and Ruby on Rails. Today, I’ve built over 5 multipurpose projects with API curation all while playing with complex data structures in order to create the utmost user experience and functionality. In my head it’s simple: the best user stories come from the value and enthusiasm of the coder(s). 
+                        <br /> <br />
+                        I’m excited to join a team of equally enthusiastic engineers in order to build valuable audience experiences while having fun debugging and dealing with complex algorithmic techniques behind the scenes. 
+                        
 
-                    <Education 
-                        startYear={2019}
-                        endYear={2020}
-                        schoolName="Flatiron School"
-                        schoolDescription="sdjosjcosdjcosjcsojcsojcosjco"
-                    />
-                <hr style={{borderTop: '3px solid #e22947'}}/>
+                        <br /> <br />
+                        <br /> <br />
+                        <br /> <br />
+                        <br /> <br />
+                        <span>Edit: </span>currently working on a Social Impact platform in hopes to provide voices to women around the country to share career experiences utilizing Natural Language Processing. 
+                    
+                    </div>
 
-                    <h2>Experience</h2>
-
-                    <Experience 
-                        startYear={2009}
-                        endYear={2012}
-                        jobName='First Job'
-                        jobDescription='talk about your first job here!!!'
-                    />
-
-                    <Experience 
-                        startYear={2009}
-                        endYear={2012}
-                        jobName='Second Job'
-                        jobDescription='talk about your second job here!!!'
-                    />
-                
-                <hr style={{borderTop: '3px solid #e22947'}}/>
-                
-                <h2>Skills</h2>
-
-                <Skills 
-                    skill='javascript'
-                    progress={100}
-                />
-                <Skills 
-                    skill='ruby on rails'
-                    progress={80}
-                />
-                <Skills 
-                    skill='React'
-                    progress={85}
-                />
-                <Skills 
-                    skill='HTML/CSS'
-                    progress={65}
-                />
+                    
                 
                 </Cell>    
               </Grid> 
