@@ -11,9 +11,10 @@ class About extends Component {
                 <Cell className="resume-left-col" col={4}>
                     <div style={{textAlign: 'center'}}>
                         <img 
-                        src="https://cdn1.iconfinder.com/data/icons/user-pictures/100/female1-512.png"
+                        src='/about4.png'
                         alt="avatar"
-                        style={{height: '200px'}}
+                        style={{height: '300px',   borderRadius: '10%', width: '290px'
+                    }}
                         />
                     
 
