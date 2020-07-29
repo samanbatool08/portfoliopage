@@ -18,17 +18,17 @@ class Landing extends Component {
                             <h1>Software Engineer</h1>
                         <div className='social-links'>
                                 {/* LinkedIn  */}
-                            <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                            <a href="https://www.linkedin.com/in/saman-batool/" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-linkedin-square" aria-hidden="true"/>
                             </a>
 
                               {/* GitHub  */}
-                              <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                              <a href="https://github.com/samanbatool08" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-github-square" aria-hidden="true"/>
                             </a>
 
                               {/* Medium  */}
-                              <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                              <a href="https://medium.com/@samanbatool08" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-medium" aria-hidden="true"/>
                             </a>
 

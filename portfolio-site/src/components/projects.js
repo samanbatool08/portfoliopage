@@ -13,7 +13,7 @@ class Project extends Component {
                 {/* Project 1 */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(/weather.png) center / cover'}}>Weather I should go?</CardTitle>
-                        <CardText>Comparing global weather conditions to realtime activities.
+                        <CardText>Weather conditions based on manual and current location connected to real time activities for users to save and create their own visit list. 
                                 <br></br>
                                 <br></br>
                                 <strong>Tech:</strong> Javascript, React, Redux, Ruby on Rails, Google Maps, OpenWeather API, Heroku, Bootstrap
@@ -21,15 +21,15 @@ class Project extends Component {
                         </CardText>
                         <CardActions border>
 
-                            <a href='http://google.com' target="_blank">
+                            <a href='https://weatheryoushouldgo-app.herokuapp.com/weather' target="_blank">
                             <Button colored>Website</Button>
                             </a>
 
-                            <a href='http://github.com' target="_blank">
+                            <a href='https://github.com/samanbatool08/painterly-frontend' target="_blank">
                             <Button colored>Github</Button>
                             </a>
 
-                            <a href='http://youtube.com' target="_blank">
+                            <a href='https://youtu.be/5DfmpRz1lyc' target="_blank">
                             <Button colored>Demo</Button>
                             </a>
 
@@ -42,7 +42,7 @@ class Project extends Component {
                      {/* Project 2 */}
                      <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(/painterly.png) center / cover'}}>Painterly</CardTitle>
-                        <CardText>Create your own drawing journal and organize them into different collections to reflect or finish later.
+                        <CardText>Users can create their own drawings journal and further organize them into different collections/albums to reflect or finish later. Grid and board structure built manually on frontend using React component hierarchy. 
                                 <br></br>
                                 <br></br>
                                 <strong>Tech:</strong> Javascript, React, Hooks, Ruby on Rails, ActiveRecord, Heroku
@@ -50,15 +50,15 @@ class Project extends Component {
                         </CardText>
                         <CardActions border>
 
-                            <a href='http://google.com' target="_blank">
+                            <a href='https://painterly-drawing-app.herokuapp.com/' target="_blank">
                             <Button colored>Website</Button>
                             </a>
 
-                            <a href='http://github.com' target="_blank">
+                            <a href='https://github.com/samanbatool08/Final-weather-app' target="_blank">
                             <Button colored>Github</Button>
                             </a>
 
-                            <a href='http://youtube.com' target="_blank">
+                            <a href='https://youtu.be/VAqojoB4fyE' target="_blank">
                             <Button colored>Demo</Button>
                             </a>
 
@@ -71,22 +71,22 @@ class Project extends Component {
                    {/* Project 3 */}
                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(/boggle.png) center / cover'}}>Boggle</CardTitle>
-                        <CardText>Enjoy a game of boggle using valid words rangings from 3 letters or more.
+                        <CardText>Play a game of boggle with all the correct rules to join connecting letters to create words ranging from 3 letters or more. Hitting a manual dictionary model in the backend to retrieve score in minimal time. 
                                 <br></br>
                                 <br></br>
                                 <strong>Tech:</strong> Javascript, Ruby on Rails, PostgreSQL, Heroku, Bootstrap
                         </CardText>
                         <CardActions border>
 
-                            <a href='http://google.com' target="_blank">
+                            <a href='https://boggle-game-app.herokuapp.com/' target="_blank">
                             <Button colored>Website</Button>
                             </a>
 
-                            <a href='http://github.com' target="_blank">
+                            <a href='https://github.com/samanbatool08/Boggle-frontend-splitrepo' target="_blank">
                             <Button colored>Github</Button>
                             </a>
 
-                            <a href='http://youtube.com' target="_blank">
+                            <a href='https://youtu.be/I3XIG8QjI4s' target="_blank">
                             <Button colored>Demo</Button>
                             </a>
 
