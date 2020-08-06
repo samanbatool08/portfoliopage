@@ -30,7 +30,7 @@ class Resume extends Component {
 
                     <Skills 
                         skill='javascript&nbsp;&nbsp;'
-                        progress={100}
+                        progress={90}
                     />
                     <Skills 
                         skill='ruby on rails'

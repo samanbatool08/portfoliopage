@@ -13,7 +13,7 @@ function App() {
         <Header className='header-color' title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">Portfolio</Link>} scroll>
             <Navigation>
                 <Link to="/aboutme">About Me</Link>
-                <a href="https://drive.google.com/file/d/1OgftRCIdRTjYGtKZSNg4fTzrzRoz2T7M/view?usp=sharing" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none'}}><p style={{color: 'white', marginTop: '30%'}}>Resume</p></a>
+                <a href="https://drive.google.com/file/d/1ma4VlguCn1qr0mV1iF-VhNmTu1mjoOtD/view?usp=sharing" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none'}}><p style={{color: 'white', marginTop: '30%'}}>Resume</p></a>
                 {/* <Link to="/resume">Resume</Link> */}
                 <Link to="/projects">Projects</Link>
                 {/* <Link to="/contact">Contact</Link> */}

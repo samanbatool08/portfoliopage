@@ -25,7 +25,7 @@ class Project extends Component {
                             <Button colored>Website</Button>
                             </a>
 
-                            <a href='https://github.com/samanbatool08/painterly-frontend' target="_blank">
+                            <a href='https://github.com/samanbatool08/weather-ishouldgo-frontend' target="_blank">
                             <Button colored>Github</Button>
                             </a>
 
@@ -54,7 +54,7 @@ class Project extends Component {
                             <Button colored>Website</Button>
                             </a>
 
-                            <a href='https://github.com/samanbatool08/Final-weather-app' target="_blank">
+                            <a href='https://github.com/samanbatool08/painterly-frontend' target="_blank">
                             <Button colored>Github</Button>
                             </a>
 
@@ -82,7 +82,7 @@ class Project extends Component {
                             <Button colored>Website</Button>
                             </a>
 
-                            <a href='https://github.com/samanbatool08/Boggle-frontend-splitrepo' target="_blank">
+                            <a href='https://github.com/samanbatool08/boggle-pro-frontend' target="_blank">
                             <Button colored>Github</Button>
                             </a>
 
