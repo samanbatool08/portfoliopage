@@ -29,7 +29,7 @@ class About extends Component {
 
                     <Skills 
                         skill='javascript&nbsp;&nbsp;'
-                        progress={100}
+                        progress={90}
                     />
                     <Skills 
                         skill='ruby on rails'
@@ -54,7 +54,7 @@ class About extends Component {
 
                 <Cell className="resume-right-col" col={6}>
 
-                    <h2 style={{fontFamily: 'Amiri, serif'}}>From where to where? </h2>
+                    <h2 style={{fontFamily: 'Amiri, serif', marginBottom: '10px'}}>From where to where? </h2>
 
 
                     <div className="about-desc">
@@ -70,7 +70,7 @@ class About extends Component {
                         <br /> <br />
                         <br /> <br />
                         <br /> <br />
-                        <span className='bold-ital'>Edit: </span> currently working on a Social Impact platform in hopes to provide voices to women around the country to share career experiences utilizing Natural Language Processing. Follow my blog to read about my experience ranging from web development to survey techniques at <span className='bold'>https://medium.com/@samanbatool08</span>. 
+                        <span className='bold-ital'>Edit: </span> currently working on a Social Impact platform in hopes to provide voices to women around the country to share career experiences utilizing Natural Language Processing. Follow my blog to read about my experience ranging from web development to survey techniques at <span className='bold'>https://medium.com/@samanbatool08</span>.
 
                     
                     </div>
