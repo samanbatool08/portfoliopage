@@ -27,7 +27,7 @@ class About extends Component {
 
                 {/* <h2>Skills</h2> */}
 
-                    <Skills 
+                    {/* <Skills 
                         skill='javascript&nbsp;&nbsp;'
                         progress={90}
                     />
@@ -42,7 +42,7 @@ class About extends Component {
                     <Skills 
                         skill='HTML/CSS'
                         progress={65}
-                    />
+                    /> */}
                 </div>
                     <ListItem style={{marginLeft: '30%'}}>
                         <ListItemContent style={{fontSize: '14px', fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif;'}}>

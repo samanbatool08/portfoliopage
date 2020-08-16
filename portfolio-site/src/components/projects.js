@@ -18,7 +18,7 @@ class Project extends Component {
                     <CardTitle style={{color: '#000000', height: '176px', background: 'url(/amazon2.00.png) center / cover'}}></CardTitle>
                         <CardText>
                             <p className='projects-title'>AMAZON 2.0</p>
-                            E-Commerce site (Amazon clone) implemented with React Context API in order to retreive user data and activity. Firebase used for data management, User Auth and hosting.
+                            E-Commerce site (Amazon clone) implemented with React Context API in order to retreive user data and activity - basket subtotal updated instantly. Firebase used for data management, User Auth and hosting.
                                 <br></br>
                                 <br></br>
                                 <strong>Tech:</strong> Javascript, React, React Context API, Firebase, React Router, Material UI, Flex, Grid
@@ -35,38 +35,7 @@ class Project extends Component {
                             </a>
 
                             <a href='' style={{display: 'inlineBlock', pointerEvents: 'none'}} target="_blank">
-                            <Button colored>Demo N/A</Button>
-                            </a>
-
-                        </CardActions>
-                        <CardMenu style={{color: '#fff'}}>
-                            <IconButton name='share' />
-                        </CardMenu>
-                </Card>
-
-                {/* Project 1 */}
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(/weather.png) center / cover'}}></CardTitle>
-                        <CardText>
-                        <p className='projects-title'>Weather I should go?</p>
-                            Weather conditions based on manual and current location connected to real time activities for users to save and create their own visit list. 
-                                <br></br>
-                                <br></br>
-                                <strong>Tech:</strong> Javascript, React, Redux, Ruby on Rails, Google Maps, OpenWeather API, Heroku, Bootstrap
-
-                        </CardText>
-                        <CardActions border>
-
-                            <a href='https://weatheryoushouldgo-app.herokuapp.com/weather' target="_blank">
-                            <Button colored>Website</Button>
-                            </a>
-
-                            <a href='https://github.com/samanbatool08/weather-ishouldgo-frontend' target="_blank">
-                            <Button colored>Github</Button>
-                            </a>
-
-                            <a href='https://youtu.be/5DfmpRz1lyc' target="_blank">
-                            <Button colored>Demo</Button>
+                            <Button colored style={{color: 'lightgray'}}>Demo</Button>
                             </a>
 
                         </CardActions>
@@ -106,6 +75,39 @@ class Project extends Component {
                         </CardMenu>
                 </Card>
 
+                {/* Project 1 */}
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#fff', height: '176px', background: 'url(/weather.png) center / cover'}}></CardTitle>
+                        <CardText>
+                        <p className='projects-title'>Weather I should go?</p>
+                            Weather conditions based on manual and current location connected to real time activities for users to save and create their own visit list; view saved activities and delete once visited. 
+                                <br></br>
+                                <br></br>
+                                <strong>Tech:</strong> Javascript, React, Ruby on Rails, UserAuth, Google Maps, OpenWeather API, Heroku, Bootstrap
+
+                        </CardText>
+                        <CardActions border>
+
+                            {/* <a href='https://weatheryoushouldgo-app.herokuapp.com/weather' target="_blank"> */}
+                            <a href='' style={{display: 'inlineBlock', pointerEvents: 'none'}} target="_blank">
+                            <Button colored style={{color: 'lightgray'}}>Website</Button>
+                            </a>
+
+                            <a href='https://github.com/samanbatool08/weather-ishouldgo-frontend' target="_blank">
+                            <Button colored>Github</Button>
+                            </a>
+
+                            <a href='https://youtu.be/5DfmpRz1lyc' target="_blank">
+                            <Button colored>Demo</Button>
+                            </a>
+
+                        </CardActions>
+                        <CardMenu style={{color: '#fff'}}>
+                            <IconButton name='share' />
+                        </CardMenu>
+                </Card>
+
+
                    {/* Project 3 */}
                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(/boggle.png) center / cover'}}></CardTitle>
@@ -114,12 +116,13 @@ class Project extends Component {
                             Play a game of boggle with all the correct rules to join connecting letters to create words ranging from 3 letters or more. Hitting a manual dictionary model in the backend to retrieve score in minimal time. 
                                 <br></br>
                                 <br></br>
-                                <strong>Tech:</strong> Javascript, Ruby on Rails, PostgreSQL, Heroku, Bootstrap
+                                <strong>Tech:</strong> Javascript, Ruby on Rails, ActiveRecord, PostgreSQL, Heroku, Flex, Grid
                         </CardText>
                         <CardActions border>
 
-                            <a href='https://boggle-game-app.herokuapp.com/' target="_blank">
-                            <Button colored>Website</Button>
+                            {/* <a href='https://boggle-game-app.herokuapp.com/' target="_blank"> */}
+                            <a href='' style={{display: 'inlineBlock', pointerEvents: 'none'}} target="_blank">
+                            <Button colored style={{color: 'lightgray'}}>Website</Button>
                             </a>
 
                             <a href='https://github.com/samanbatool08/boggle-pro-frontend' target="_blank">
