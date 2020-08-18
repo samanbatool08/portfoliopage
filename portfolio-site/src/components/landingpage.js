@@ -47,7 +47,7 @@ class Landing extends Component {
                         </div>
                         
                         <div className='resume-container'>
-                        <a href="https://drive.google.com/file/d/1bjdS2w6YiGow_8Rs9TljJlxySj7c23f4/view?usp=sharing" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none'}}><p style={{color: 'black'}}>R e s u m e</p></a>
+                        <a href="https://drive.google.com/file/d/14YSajbtDMsa6tMyVMo9vckU71XOylHnW/view?usp=sharing" rel="noopener noreferrer" target="_blank" style={{textDecoration: 'none'}}><p style={{color: 'black'}}>R e s u m e</p></a>
                         </div>
                         
                         <div className='projects-container'>
