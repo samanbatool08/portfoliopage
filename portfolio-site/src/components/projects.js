@@ -16,7 +16,7 @@ class Project extends Component {
                 {/* Project 1 */}
 
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: '#000000', height: '176px', background: 'url(/amazon2.00.png) center / cover'}}></CardTitle>
+                    <CardTitle style={{color: '#000000', height: '176px', background: 'url(/whatsupp-chat.png) center / cover'}}></CardTitle>
                         <CardText>
                             <p className='projects-title'>WhatsUPP Chat Application</p>
                             
