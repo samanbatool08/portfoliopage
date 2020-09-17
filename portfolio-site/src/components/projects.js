@@ -12,7 +12,41 @@ class Project extends Component {
         return(
             <div className='projects-grid'>
 
+
                 {/* Project 1 */}
+
+                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                    <CardTitle style={{color: '#000000', height: '176px', background: 'url(/amazon2.00.png) center / cover'}}></CardTitle>
+                        <CardText>
+                            <p className='projects-title'>WhatsUPP Chat Application</p>
+                            
+                            Chat application mapping WhatsApp web; users are able to create different rooms to navigate and send messages within specific chatrooms in realtime. User messages and chatrooms persist upon login/logout.                                  <br></br>
+                                <br></br>
+                                <strong>Tech:</strong> React, Firebase Firestore realtime database, React Context API, React Router, MaterialUI, Google Authentication  
+
+                        </CardText>
+                        <CardActions border>
+
+                            <a href='https://whatsupp-chat.web.app' target="_blank">
+                            <Button colored>Website</Button>
+                            </a>
+
+                            <a href='https://github.com/samanbatool08/whatsupp-chat-practice' target="_blank">
+                            <Button colored>Github</Button>
+                            </a>
+
+                            <a href='' style={{display: 'inlineBlock', pointerEvents: 'none'}} target="_blank">
+                            <Button colored style={{color: 'lightgray'}}>Demo</Button>
+                            </a>
+
+                        </CardActions>
+                        <CardMenu style={{color: '#fff'}}>
+                            <IconButton name='share' />
+                        </CardMenu>
+                </Card>
+                
+                {/* Project 2 */}
+
 
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#000000', height: '176px', background: 'url(/amazon2.00.png) center / cover'}}></CardTitle>
@@ -44,7 +78,7 @@ class Project extends Component {
                         </CardMenu>
                 </Card>
 
-                     {/* Project 2 */}
+                     {/* Project 3 */}
                      <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(/painterly.png) center / cover'}}></CardTitle>
                         <CardText>
@@ -75,7 +109,7 @@ class Project extends Component {
                         </CardMenu>
                 </Card>
 
-                {/* Project 1 */}
+                {/* Project 4 */}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(/weather.png) center / cover'}}></CardTitle>
                         <CardText>
@@ -108,7 +142,7 @@ class Project extends Component {
                 </Card>
 
 
-                   {/* Project 3 */}
+                   {/* Project 5 */}
                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(/boggle.png) center / cover'}}></CardTitle>
                         <CardText>
