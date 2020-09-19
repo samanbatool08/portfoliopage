@@ -14,7 +14,7 @@ class Project extends Component {
 
 
                 {/* Project 1 */}
-
+                <div className='item1'>
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#000000', height: '176px', background: 'url(/whatsupp-chat.png) center / cover'}}></CardTitle>
                         <CardText>
@@ -44,11 +44,11 @@ class Project extends Component {
                             <IconButton name='share' />
                         </CardMenu>
                 </Card>
-                
+                </div>
                 {/* Project 2 */}
 
-
-                <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                <div className='item2'>
+                <Card shadow={5} style={{ minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#000000', height: '176px', background: 'url(/amazon2.00.png) center / cover'}}></CardTitle>
                         <CardText>
                             <p className='projects-title'>AMAZON 2.0</p>
@@ -77,8 +77,10 @@ class Project extends Component {
                             <IconButton name='share' />
                         </CardMenu>
                 </Card>
+                </div>
 
                      {/* Project 3 */}
+                     <div className='item3'>
                      <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(/painterly.png) center / cover'}}></CardTitle>
                         <CardText>
@@ -108,8 +110,10 @@ class Project extends Component {
                             <IconButton name='share' />
                         </CardMenu>
                 </Card>
+                </div>
 
                 {/* Project 4 */}
+                <div className='item4'>
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(/weather.png) center / cover'}}></CardTitle>
                         <CardText>
@@ -140,9 +144,11 @@ class Project extends Component {
                             <IconButton name='share' />
                         </CardMenu>
                 </Card>
+                </div>
 
 
                    {/* Project 5 */}
+                   <div className='item5'>
                    <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                     <CardTitle style={{color: '#fff', height: '176px', background: 'url(/boggle.png) center / cover'}}></CardTitle>
                         <CardText>
@@ -172,6 +178,7 @@ class Project extends Component {
                             <IconButton name='share' />
                         </CardMenu>
                 </Card>
+                </div>
 
                 
             </div>
