@@ -12,7 +12,6 @@ class Project extends Component {
         return(
             <div className='projects-grid'>
 
-
                 {/* Project 1 */}
                 <div className='item1'>
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
